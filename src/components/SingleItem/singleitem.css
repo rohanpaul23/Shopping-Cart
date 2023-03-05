@@ -1,0 +1,22 @@
+.product {
+  width: 15%;
+  margin: 10px;
+  background-color: w;
+  display: flex;
+  flex-direction: column;
+}
+
+.product_details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+
+.add_cart {
+  padding: 1rem;
+}
+
+.remove_cart {
+  padding-bottom: 1rem;
+}

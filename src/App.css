@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: whitesmoke;
+  height: 3.5rem;
+}
+
+.body {
+  background-color: #d5b9ef;
+}
+
+.footer {
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #d5b9ef !important;
+  --bs-btn-border-color: #d5b9ef !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-hover-bg: #d5b9ef !important;
+  --bs-btn-hover-border-color: #d5b9ef !important;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253 !important;
+  --bs-btn-active-color: #fff !important;
+  --bs-btn-active-bg: #d5b9ef !important;
+  --bs-btn-active-border-color: #d5b9ef !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+  --bs-btn-disabled-color: #fff !important;
+  --bs-btn-disabled-bg: #d5b9ef !important;
+  --bs-btn-disabled-border-color: #d5b9ef !important;
+}
+
+.btn-danger {
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: black !important;
+  --bs-btn-border-color: black !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-hover-bg: black !important;
+  --bs-btn-hover-border-color: black !important;
+  --bs-btn-focus-shadow-rgb: 225, 83, 97 !important;
+  --bs-btn-active-color: #fff !important;
+  --bs-btn-active-bg: black !important;
+  --bs-btn-active-border-color: black !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+  --bs-btn-disabled-color: #fff !important;
+  --bs-btn-disabled-bg: black !important;
+  --bs-btn-disabled-border-color: black !important;
+}

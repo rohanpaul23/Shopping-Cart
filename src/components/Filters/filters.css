@@ -1,0 +1,14 @@
+.filter_section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: baseline;
+  padding: 4rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
